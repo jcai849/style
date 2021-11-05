@@ -1,9 +1,9 @@
-h2 {
+h1, h2 {
     background: #ffeed6;
     box-shadow: 0.25em 0.25em 0 0 #ffcc85;
 }
 
-h1 {
+h1:first-of-type {
     #background: #ffeed6;
     box-shadow: 0 0.25rem 0 0 #ffcc85;
 }

@@ -3,15 +3,15 @@ html {
     margin: auto;
 }
 
-h1 {
-    text-align: right;
-    padding: 0.25em;
-}
-
-h2 {
+h1, h2 {
     padding: 0.25em;
     width: fit-content;
     margin-bottom: 2em;
+}
+
+h1:first-of-type {
+    text-align: right;
+    padding: 0.25em;
 }
 
 main {
